@@ -10,7 +10,7 @@ public class SecondController {
 	@GetMapping("/exit")
 	public String goExit(@RequestParam(value = "text", required = false) String text) {
 		System.out.println("goExit is started:\nText = " + text);
-		return "second/exit_page";
+		return "second/exit_page"; 
 	}
 
 }
